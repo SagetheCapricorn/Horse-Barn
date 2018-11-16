@@ -9,7 +9,11 @@ public class dog implements Horse {
     }
     public int getWeight()
     {
-        
+        return this.weight;
+    }
+    public String getName()
+    {
+        return this.name;
     }
 
 }
